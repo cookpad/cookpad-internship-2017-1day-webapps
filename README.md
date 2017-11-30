@@ -31,7 +31,7 @@ $ docker pull postgres:alpine
 下記のコマンドを実行して、「100% passed」と表示されれば、セットアップは完了です。
 
 ```
-$ git clone git@github.com:cookpad-internship-2017-1day-webapps.git
+$ git clone git@github.com:cookpad/cookpad-internship-2017-1day-webapps.git
 $ cd cookpad-internship-2017-1day-webapps
 $ gem install bundle
 $ hash -r
