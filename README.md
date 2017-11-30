@@ -17,7 +17,7 @@
 [Homebrew](http://brew.sh/) をつかって環境構築をしてください。 Homebrew をインストール後、下記のように Ruby や関連するライブラリをインストールします。
 
 ```
-$ brew install ruby git libpq
+$ brew install ruby git postgres
 ```
 
 また、 [Docker Community Edition for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac) をインストールしてください。その後、 postgres:alpine イメージをダウンロードしてください。
