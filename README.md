@@ -26,6 +26,14 @@ $ brew install ruby git postgres
 $ docker pull postgres:alpine
 ```
 
+### Windows
+
+[Windows Subsystem for Linux](https://msdn.microsoft.com/ja-jp/commandline/wsl/install-win10) を有効にしてください。その後、下記のように Ruby や関連するライブラリをインストールします。
+
+```
+$ sudo apt install ruby ruby-dev git postgresql libpq-dev build-essential
+```
+
 ## 動作確認
 
 下記のコマンドを実行して、「100% passed」と表示されれば、セットアップは完了です。
